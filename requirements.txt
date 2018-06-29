@@ -1,0 +1,9 @@
+apt install python-setuptools
+apt install python3-dev
+easy_install dateparser
+upgrade:
+python3 -m pip install -U pip setuptools
+pip install autobahn
+pip install twisted
+pip install pyopenssl
+pip install service_identity
